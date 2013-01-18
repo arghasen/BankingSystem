@@ -1,0 +1,32 @@
+client
+  clientMenu
+    AccessController
+    AccountInfoViewer
+    AccountInfoChanger
+    AccountBalanceQuery
+    AccountDebit
+    AccountCredit
+    clientExit
+clientstub
+  clientAuthenticator
+  clientRequestDispatcher
+  clientDataReciever
+  clientAcknowledgementSender
+
+server
+  AccessController
+  AccountInfoViewer
+  AccountInfoChanger
+  AccountBalanceQuery
+  AccountDebit
+  AccountCredit
+  AccountFileLocker
+  AccountLogger
+  
+serverStub
+  serverConnectionInitializer
+  serverAuthenticator
+  serverReplyDispatcher
+  serverRequestReciever
+  serverAcknowledgementSender
+  serverLogger
